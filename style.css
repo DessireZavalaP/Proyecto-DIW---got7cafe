@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+
+}
+
+.anim{
+
+    height: 2.5rem;/* 16 pixeles o tamaño de la m en el navegador */
+    width: 8rem;
+    background-color: cornflowerblue;
+    position: absolute;/* para que pierda su flujo */
+    color: aliceblue;
+    display: grid;
+    place-content: center;
+   /*  transform: rotate(45deg);
+    transform: translateY(5rem);
+    transform: scale(2,1.5); */
+/*  transform: skew(10deg);
+ */    /* animation-name: mov; *//* cualquier nombre */
+  /*   animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out; */
+   /*  animation-delay: 2s; *//* para que trade eso en iniciar */
+   /*  animation-direction: reverse; */
+   
+}
+
+.anim:hover{
+    background-color: black;
+    animation-name: mov;
+    transition: 1s;
+}
+
+/* @keyframes mov{ */
+  /*   0%{ *//* desde donde parte */
+
+       /*  top: 0%;
+        left: 0%;
+        
+
+    }
+
+    25%{
+
+        top: 0%;
+        left: 50%;
+        background-color: blueviolet;
+
+    }
+
+    50%{
+
+        top: 50%;
+        left: 50%;
+        background-color: blue;
+
+    }
+    75%{
+
+        top: 50%;
+        left: 0%;
+        background-color: black;
+
+    }
+ */
+    /* 100%{ *//* hasta donde termine */
+       /*  top: 0%;
+        background-color: cornflowerblue;
+    }
+}  */
